@@ -26,11 +26,36 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello world");
+    //console.log("Hello world");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof myFunction);
-console.log(typeof id);
+// console.log(typeof bigNumber);
+// console.log(typeof myFunction);
+// console.log(typeof id);
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stact (primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchaudhrydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = { 
+    email: "user@google.com",
+    upi: "user@bl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
