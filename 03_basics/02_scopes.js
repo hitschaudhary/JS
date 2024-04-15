@@ -12,6 +12,10 @@ if(true) {
 //console.log(b);
 //console.log(c);
 
+/*    hosting   */
+
+//nested scopes
+
 function one(){
     const username = "hitesh"
 
