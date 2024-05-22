@@ -5,7 +5,6 @@ while(index <= 10){
 }
 
 
-
 let myArray = ["flash", "batman", "superman"]
 
 let arr = 0
