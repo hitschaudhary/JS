@@ -5,7 +5,7 @@
 const arr = [1, 2, 3, 4, 5]
 
 for (const num of arr) {
-    //console.log(num);
+//    console.log(num);
 }
 
 const greetings = "Hello world!"
@@ -26,15 +26,16 @@ map.set('IN', "India") // not print two time
 
 
 for (const [key, value] of map) {
-    console.log(key, ':-', value);
+  //  console.log(key, ':-', value);
 }
 
-// const myObject = {
-//     game1: 'NFS',
-//     game2: 'Spiderman'
-// }
+const myObject = {
+    game1: 'NFS',
+    game2: 'Spiderman'
+}
 
-// for (const [key, value] of myObject) {
-//     console.log(key, ':-', value);
-    
-// }
+console.log(typeof myObject)
+
+for (const [key, value] of myObject) {
+    console.log(key, ':-', value); // for_of can't iterate object
+}
