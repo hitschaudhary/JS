@@ -26,16 +26,16 @@ map.set('IN', "India") // not print two time
 
 
 for (const [key, value] of map) {
-  //  console.log(key, ':-', value);
+    console.log(key, ':-', value);
 }
 
-const myObject = {
-    game1: 'NFS',
-    game2: 'Spiderman'
-}
+// const myObject = {
+//     game1: 'NFS',
+//     game2: 'Spiderman'
+// }
 
-console.log(typeof myObject)
+// console.log(typeof myObject)
 
-for (const [key, value] of myObject) {
-    console.log(key, ':-', value); // for_of can't iterate object
-}
+// for (const [key, value] of myObject) {
+//     console.log(key, ':-', value); // for_of can't iterate object
+// }
