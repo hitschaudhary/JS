@@ -15,7 +15,7 @@ for (const key in programming) {
 //      console.log(programming[key]);
 }
 
-const map = new Map() // map is not iterateble
+const map = new Map() // map is not iterateble in for_in
 map.set('IN', "India")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
